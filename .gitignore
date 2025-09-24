@@ -1,18 +1,15 @@
-# 1) Ignorer tout ce qui est à la racine
 /*
-
-# 2) Ré-inclure dossiers (à la racine)
 !/hardware/
-!/software/
+!/firmware/
+!/images/
 
-# 3) (Optionnel) Garder quelques fichiers racine utiles
 !.gitignore
 !README.md
 !LICENSE
 !keyboard-layout (KLE).json
 !keyboard plate.dxf
+!Schematic.pdf
 
-# 5) (Optionnel) Bruit d'éditeurs/OS
 **/.vscode/
 **/.DS_Store
 **/Thumbs.db
